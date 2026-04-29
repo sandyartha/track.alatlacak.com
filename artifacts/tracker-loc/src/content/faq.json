@@ -1,0 +1,39 @@
+{
+  "heading": "Pertanyaan yang Sering Diajukan",
+  "badge": "FAQ",
+  "description": "Panduan singkat untuk memahami cara kerja layanan pelacakan lokasi HLR Lookup.",
+  "items": [
+    {
+      "question": "Bagaimana cara kerja pelacakan lokasi HLR Lookup?",
+      "answer": "Anda membuat link unik melalui alatlacak.com, kemudian link tersebut dikirimkan ke target melalui SMS, WhatsApp, atau media lainnya. Ketika target membuka link, browser mereka akan meminta izin akses lokasi. Jika diizinkan, koordinat GPS langsung dikirim ke dashboard Anda secara real-time."
+    },
+    {
+      "question": "Apakah target akan tahu bahwa lokasi mereka dilacak?",
+      "answer": "Browser selalu menampilkan dialog izin lokasi kepada target sebelum data dikirim. Artinya target harus secara aktif mengizinkan akses lokasi agar pelacakan berhasil. Jika target menolak izin, data lokasi tidak akan diperoleh."
+    },
+    {
+      "question": "Operator seluler apa saja yang didukung?",
+      "answer": "Layanan mendukung semua operator seluler di Indonesia, termasuk Telkomsel, XL Axiata, Indosat Ooredoo, Tri (3), Axis, dan Smartfren. Dengan dukungan lengkap untuk semua operator, Anda dapat melacak nomor dari provider manapun dengan hasil yang akurat."
+    },
+    {
+      "question": "Apa itu OpenCellID dan mengapa digunakan?",
+      "answer": "OpenCellID adalah database terbuka yang memetakan lokasi fisik menara BTS (Base Transceiver Station) dari berbagai operator di seluruh dunia. Layanan ini menggunakannya sebagai referensi tambahan untuk memperkuat akurasi lokasi ketika data GPS tidak tersedia atau kurang presisi."
+    },
+    {
+      "question": "Seberapa akurat data lokasi yang diperoleh?",
+      "answer": "Akurasi bergantung pada perangkat target. Jika target menggunakan smartphone dengan GPS aktif di ruang terbuka, akurasi bisa mencapai 5–10 meter. Di dalam ruangan atau jika hanya menggunakan Wi-Fi positioning, akurasi bisa menurun menjadi 50–200 meter."
+    },
+    {
+      "question": "Berapa lama data lokasi tersimpan?",
+      "answer": "Data lokasi tersimpan di server selama 30 hari sejak link pertama kali digunakan. Setelah itu data dihapus otomatis. Anda juga bisa menghapus data secara manual kapan saja melalui dashboard akun Anda."
+    },
+    {
+      "question": "Apakah layanan ini benar-benar gratis?",
+      "answer": "Ya, layanan dasar sepenuhnya gratis tanpa biaya tersembunyi. Anda bisa membuat dan menggunakan link unik tanpa perlu membayar. Tersedia juga paket premium dengan fitur tambahan seperti histori lokasi lebih lama dan notifikasi real-time."
+    },
+    {
+      "question": "Bagaimana jika link tidak dibuka oleh target?",
+      "answer": "Jika target tidak membuka link, tidak ada data lokasi yang dapat diperoleh. Status link di dashboard Anda akan tetap menunjukkan 'Belum Dibuka'. Link tidak memiliki mekanisme untuk mengambil lokasi tanpa interaksi aktif dari target."
+    }
+  ]
+}
