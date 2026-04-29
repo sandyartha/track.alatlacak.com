@@ -1,4 +1,3 @@
-'use client'
 
 import { CheckCircle2, AlertCircle, Zap } from 'lucide-react'
 import servicesData from '@/content/services.json'
