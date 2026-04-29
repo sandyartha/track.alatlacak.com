@@ -1,0 +1,68 @@
+{
+  "brand": {
+    "name": "Tracker Loc ID",
+    "tagline": "Solusi Pelacakan Nomor HP Terpercaya",
+    "description": "Platform layanan melacak lokasi nomor telepon HP dengan teknologi OpenCellID dan akurasi tinggi untuk semua operator Indonesia."
+  },
+  "sections": [
+    {
+      "title": "Layanan",
+      "links": [
+        { "label": "HLR Lookup Gratis", "description": "Identifikasi perangkat tanpa biaya" },
+        { "label": "Tracker Link Premium", "description": "Pelacakan via link dengan presisi akurat" },
+        { "label": "Tracker Nomor Premium", "description": "Lacak nomor HP dengan hasil pasti" }
+      ]
+    },
+    {
+      "title": "Informasi",
+      "links": [
+        { "label": "Tentang Kami", "description": "Sejarah dan visi Tracker Loc ID" },
+        { "label": "FAQ", "description": "Jawaban pertanyaan umum pengguna" },
+        { "label": "Panduan", "description": "Tutorial cara menggunakan layanan" }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        { "label": "Kebijakan Privasi", "description": "Perlindungan data pengguna" },
+        { "label": "Syarat Layanan", "description": "Persyaratan penggunaan platform" },
+        { "label": "Disclaimer", "description": "Batasan tanggung jawab layanan" }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "title": "Semua Operator Indonesia",
+      "description": "Mendukung Telkomsel, XL, Indosat, Tri, Axis, Smartfren"
+    },
+    {
+      "title": "Aman & Terpercaya",
+      "description": "Data tidak disimpan, hanya processing real-time"
+    },
+    {
+      "title": "Akurasi Tinggi",
+      "description": "Triangulasi sel tower dengan OpenCellID"
+    }
+  ],
+  "cta": {
+    "heading": "Mulai Gunakan Tracker Loc ID Sekarang",
+    "subheading": "Jasa melacak nomor HP terbaik di Indonesia",
+    "button": "Coba Gratis Sekarang"
+  },
+  "seo": {
+    "keywords": [
+      "lacak nomor hp",
+      "pelacak nomor telepon",
+      "jasa melacak hp",
+      "lacak lokasi nomor",
+      "tracker nomor hp",
+      "hlr lookup",
+      "cek lokasi hp",
+      "lacak hp online",
+      "melacak nomor hp gratis",
+      "layanan tracking hp indonesia"
+    ]
+  },
+  "copyright": "© 2024 Tracker Loc ID. Semua hak cipta dilindungi. Bukan untuk melacak HP hilang atau dicuri — gunakan Find My Device dari Google.",
+  "baseUrl": "alatlacak.com"
+}
