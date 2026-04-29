@@ -19,7 +19,7 @@ function HLRLookupPage() {
       {/* Main content */}
       <div className="flex flex-1 flex-col min-w-0">
         <main className="flex-1">
-          <div className="mx-auto max-w-3xl px-6 md:px-8 pt-14 md:pt-0">
+          <div className="mx-auto max-w-5xl px-6 md:px-8 pt-14 md:pt-0">
             {/* Hero */}
             <section className="py-14 border-b border-border">
               <div className="inline-flex items-center gap-2 text-xs text-muted-foreground mb-5">
