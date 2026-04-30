@@ -1,0 +1,104 @@
+{
+  "brand": {
+    "name": "Tracker Loc ID",
+    "tagline": "Solusi Pelacakan Nomor HP Terpercaya",
+    "description": "Platform layanan melacak lokasi nomor telepon HP dengan teknologi OpenCellID dan akurasi tinggi untuk semua operator Indonesia."
+  },
+  "sections": [
+    {
+      "title": "Layanan",
+      "links": [
+        {
+          "label": "HLR Lookup Gratis",
+          "description": "Identifikasi perangkat tanpa biaya",
+          "href": "/hlr-lookup"
+        },
+        {
+          "label": "Tracker Premium",
+          "description": "Pelacakan via link dengan presisi akurat",
+          "href": "/tracker-premium"
+        },
+        {
+          "label": "Tracker Nomor Premium",
+          "description": "Lacak nomor HP dengan hasil pasti",
+          "href": "/tracker-premium"
+        }
+      ]
+    },
+    {
+      "title": "Informasi",
+      "links": [
+        {
+          "label": "Tentang Kami",
+          "description": "Sejarah dan visi Tracker Loc ID",
+          "href": "/tentang-kami"
+        },
+        {
+          "label": "FAQ",
+          "description": "Jawaban pertanyaan umum pengguna",
+          "href": "/#faq"
+        },
+        {
+          "label": "Panduan",
+          "description": "Tutorial cara menggunakan layanan",
+          "href": "/#services"
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        {
+          "label": "Kebijakan Privasi",
+          "description": "Perlindungan data pengguna",
+          "href": "/kebijakan-privasi"
+        },
+        {
+          "label": "Syarat Layanan",
+          "description": "Persyaratan penggunaan platform",
+          "href": "/syarat-layanan"
+        },
+        {
+          "label": "Disclaimer",
+          "description": "Batasan tanggung jawab layanan",
+          "href": "/disclaimer"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "title": "Semua Operator Indonesia",
+      "description": "Mendukung Telkomsel, XL, Indosat, Tri, Axis, Smartfren"
+    },
+    {
+      "title": "Aman & Terpercaya",
+      "description": "Data tidak disimpan, hanya processing real-time"
+    },
+    {
+      "title": "Akurasi Tinggi",
+      "description": "Triangulasi sel tower dengan OpenCellID"
+    }
+  ],
+  "cta": {
+    "heading": "Mulai Gunakan Tracker Loc ID Sekarang",
+    "subheading": "Jasa melacak nomor HP terbaik di Indonesia",
+    "button": "Coba Gratis Sekarang"
+  },
+  "seo": {
+    "keywords": [
+      "lacak nomor hp",
+      "pelacak nomor telepon",
+      "jasa melacak hp",
+      "lacak lokasi nomor",
+      "tracker nomor hp",
+      "hlr lookup",
+      "cek lokasi hp",
+      "lacak hp online",
+      "melacak nomor hp gratis",
+      "layanan tracking hp indonesia"
+    ]
+  },
+  "copyright": "© 2024 Tracker Loc ID. Semua hak cipta dilindungi. Bukan untuk melacak HP hilang atau dicuri — gunakan Find My Device dari Google.",
+  "baseUrl": "alatlacak.com"
+}
