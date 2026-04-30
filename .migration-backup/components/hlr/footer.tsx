@@ -5,7 +5,7 @@ import footerData from "@/content/footer.json"
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-gradient-to-b from-background to-muted/30 pt-16 pb-8">
+    <footer className="border-t border-border bg-gradient-to-b from-background to-muted/30 pt-16 pb-8 md:ml-64">
       <div className="mx-auto max-w-5xl px-6">
         {/* CTA Section */}
         <div className="mb-16 rounded-2xl border border-border bg-card/80 backdrop-blur-sm p-8 text-center">

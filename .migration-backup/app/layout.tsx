@@ -10,7 +10,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 const SITE_NAME = "Tracker Loc ID"
-const SITE_URL = "https://alatlacak.com"
+const SITE_URL = "https://track.alatlacak.com"
 const TITLE = "Jasa Melacak Lokasi Nomor Telepon HP - Tanpa Install Aplikasi"
 const DESCRIPTION =
   "Jasa Melacak Nomor HP secara akurat semua provider dan tanpa ribet dan mudah digunakan dan pasti akurat. Tidak untuk melacak hp yang hilang."
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: SITE_URL,
+    canonical: "https://track.alatlacak.com",
   },
   openGraph: {
     type: "website",
@@ -112,6 +112,7 @@ export default function RootLayout({
   return (
     <html lang="id" suppressHydrationWarning>
       <head>
+        <meta name="google-site-verification" content="8fX9LfYBpbfxlEdjGOiWUjpB98_On71UN4Un_YUMdaQ" />
         <Script
           id="json-ld-website"
           type="application/ld+json"
