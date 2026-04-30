@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /api
+Disallow: /_next
+Disallow: /admin
+
+Sitemap: https://track.alatlacak.com/sitemap.xml
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
