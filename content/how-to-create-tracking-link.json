@@ -1,33 +1,50 @@
 {
   "heading": "Cara Kerja",
-  "subheading": "Buat Link Pelacak Lokasi",
-  "description": "Ikuti langkah-langkah sederhana untuk membuat link pelacak lokasi yang dapat dibagikan melalui SMS atau WhatsApp.",
+  "subheading": "Buat Link Berbagi Lokasi",
+  "description": "Ikuti langkah-langkah sederhana untuk membuat link berbagi lokasi yang aman dan berbasis izin pengguna.",
   "steps": [
     {
+      "id": "step-1",
       "number": 1,
-      "title": "Bagikan Link Tracker",
-      "description": "Link tracker akan dihasilkan dan siap dibagikan melalui SMS atau WhatsApp kepada target.",
-      "image": ""
+      "title": "Buat & Bagikan Link",
+      "description": [
+        "Sistem akan membuat link berbagi lokasi secara otomatis",
+        "Salin link dan kirim melalui WhatsApp atau SMS",
+        "Pastikan penerima adalah orang yang Anda kenal"
+      ],
+      "image": "https://developers.google.com/static/maps/images/landing/top-p3djs-codelab.png",
+      "links": [
+        "https://example.com/10",
+        "https://example.com/20"
+      ]
     },
     {
+      "id": "step-2",
       "number": 2,
-      "title": "Input Nomor Ponsel Target",
-      "description": "Masukkan nomor telepon target yang ingin dilacak dalam format 62812345678 (tanpa +, spasi, atau dash).",
-      "image": ""
+      "title": "Target Membuka Link",
+      "description": [
+        "Penerima membuka link yang telah dikirim",
+        "Halaman akan menampilkan permintaan berbagi lokasi",
+        "Pastikan koneksi internet aktif"
+      ],
+      "images": [
+        "/steps/step-2-1.png",
+        "/steps/step-2-2.png"
+      ]
     },
     {
+      "id": "step-3",
       "number": 3,
-      "title": "Pilih Layanan",
-      "description": "Pilih antara \"Tracker Link\" untuk melacak lokasi melalui link yang dapat dibagikan, atau \"Tracker Nomor\" untuk melacak nomor telepon secara langsung.",
-      "image": ""
+      "title": "Izinkan Akses Lokasi",
+      "description": [
+        "Klik tombol 'Izinkan Lokasi'",
+        "Browser akan meminta permission lokasi",
+        "Jika disetujui, lokasi akan dikirim secara real-time"
+      ],
+      "images": [
+        "/steps/step-3-1.png",
+        "/steps/step-3-2.png"
+      ]
     }
-  ],
-  "examples": {
-    "title": "Contoh Link",
-    "links": [
-      "https://example.com/10",
-      "https://example.com/20",
-      "https://example.com/3"
-    ]
-  }
+  ]
 }

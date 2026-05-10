@@ -1,88 +1,120 @@
 'use client'
 
-const steps = [
-  {
-    step: 1,
-    title: 'Pilih Layanan',
-    description: 'Pilih antara "Tracker Link" untuk melacak lokasi melalui link yang dapat dibagikan, atau "Tracker Nomor" untuk melacak nomor telepon secara langsung.',
-  },
-  {
-    step: 2,
-    title: 'Input Nomor Ponsel Target',
-    description: 'Masukkan nomor telepon target yang ingin dilacak dalam format 62812345678 (tanpa +, spasi, atau dash).',
-  },
-  {
-    step: 3,
-    title: 'Bagikan Link Tracker',
-    description: 'Link tracker akan dihasilkan dan siap dibagikan melalui SMS atau WhatsApp kepada target.',
-    examples: [
-      'https://example.com/1',
-      'https://example.com/2',
-      'https://example.com/3',
-    ],
-  },
-]
+import trackingData from '@/content/how-to-create-tracking-link.json'
 
 export function TrackerFlow() {
+  const steps = trackingData.steps ?? []
 
   return (
-    <section id="tracker-flow" className="py-14 border-b border-border">
+    <section
+      id="tracker-flow"
+      className="py-14 border-b border-border"
+      aria-labelledby="tracker-flow-title"
+    >
+      {/* Header */}
       <div className="mb-8">
         <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-          Cara Kerja
+          {trackingData.heading}
         </span>
-        <h2 className="mt-2 text-2xl font-bold tracking-tight text-foreground">
-          Buat Link Pelacak Lokasi
+        <h2
+          id="tracker-flow-title"
+          className="mt-2 text-2xl font-bold tracking-tight text-foreground"
+        >
+          {trackingData.subheading}
         </h2>
         <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-          Ikuti langkah-langkah sederhana untuk membuat link pelacak lokasi yang dapat dibagikan melalui SMS atau WhatsApp.
+          {trackingData.description}
         </p>
       </div>
 
-      {/* Steps Display */}
-      <div className="space-y-6">
-        {steps.map((item, index) => (
-          <div key={index} className="flex gap-4">
-            {/* Step Number */}
-            <div className="flex flex-col items-center">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary bg-primary text-primary-foreground font-semibold">
-                {item.step}
+      {/* Steps */}
+      <div className="space-y-8">
+        {Array.isArray(steps) &&
+          steps.map((item, index) => (
+            <div
+              key={item.id ?? index}
+              className="flex gap-4 items-start"
+            >
+              {/* Step Number */}
+              <div className="flex flex-col items-center">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary bg-primary text-primary-foreground font-semibold">
+                  {item.number ?? index + 1}
+                </div>
+                {index < steps.length - 1 && (
+                  <div className="w-1 h-full min-h-[60px] bg-border mt-2" />
+                )}
               </div>
-              {index < steps.length - 1 && (
-                <div className="w-1 h-12 bg-border mt-2" />
-              )}
-            </div>
 
-            {/* Step Content */}
-            <div className="pb-6 flex-1">
-              <h3 className="text-lg font-semibold text-foreground">
-                {item.title}
-              </h3>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                {item.description}
-              </p>
-              
-              {/* Show examples for step 3 */}
-              {item.examples && (
-                <div className="mt-4 space-y-2">
-                  <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                    Contoh Link
+              {/* Content */}
+              <div className="pb-6 flex-1 transition hover:translate-x-1">
+                <h3 className="text-lg font-semibold text-foreground">
+                  {item.title}
+                </h3>
+
+                {/* Description as list */}
+                {Array.isArray(item.description) ? (
+                  <ol className="mt-2 space-y-1 text-sm text-muted-foreground">
+                    {item.description.map((desc, i) => (
+                      <li key={i}>
+                        <span className="font-medium mr-1">
+                          {item.number ?? index + 1}.{i + 1}
+                        </span>
+                        {desc}
+                      </li>
+                    ))}
+                  </ol>
+                ) : (
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    {item.description}
                   </p>
-                  <div className="space-y-2 bg-muted/40 rounded-lg p-3 border border-border/50">
-                    {item.examples.map((example, idx) => (
-                      <code
-                        key={idx}
-                        className="text-xs text-foreground/80 block font-mono break-all"
-                      >
-                        {example}
-                      </code>
+                )}
+
+                {/* Single Image */}
+                {item.image && (
+                  <div className="mt-4">
+                    <img
+                      src={item.image}
+                      alt={`Step ${item.number} image`}
+                      className="w-full h-auto max-h-120 rounded-xl object-contain border border-border bg-muted p-2 transition hover:scale-[1.02]"
+                    />
+                  </div>
+                )}
+
+                {/* Multiple Images */}
+                {Array.isArray(item.images) && item.images.length > 0 && (
+                  <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {item.images.map((src: string, i: number) => (
+                      <img
+                        key={i}
+                        src={src}
+                        alt={`Step ${item.number} screenshot ${i + 1}`}
+                        className="w-full h-auto max-h-120 rounded-xl object-contain border border-border bg-muted p-2 transition hover:scale-[1.02]"
+                      />
                     ))}
                   </div>
-                </div>
-              )}
+                )}
+
+                {/* Links */}
+                {Array.isArray(item.links) && item.links.length > 0 && (
+                  <div className="mt-4 space-y-1">
+                    {item.links.map((link: string, i: number) => (
+                      <p key={i} className="text-sm">
+                        <span className="mr-2">•</span>
+                        <a
+                          href={link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary hover:underline break-all"
+                        >
+                          {link}
+                        </a>
+                      </p>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
     </section>
   )
