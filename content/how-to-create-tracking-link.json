@@ -5,25 +5,28 @@
   "steps": [
     {
       "number": 1,
-      "title": "Pilih Layanan",
-      "description": "Pilih antara \"Tracker Link\" untuk melacak lokasi melalui link yang dapat dibagikan, atau \"Tracker Nomor\" untuk melacak nomor telepon secara langsung."
+      "title": "Bagikan Link Tracker",
+      "description": "Link tracker akan dihasilkan dan siap dibagikan melalui SMS atau WhatsApp kepada target.",
+      "image": ""
     },
     {
       "number": 2,
       "title": "Input Nomor Ponsel Target",
-      "description": "Masukkan nomor telepon target yang ingin dilacak dalam format 62812345678 (tanpa +, spasi, atau dash)."
+      "description": "Masukkan nomor telepon target yang ingin dilacak dalam format 62812345678 (tanpa +, spasi, atau dash).",
+      "image": ""
     },
     {
       "number": 3,
-      "title": "Bagikan Link Tracker",
-      "description": "Link tracker akan dihasilkan dan siap dibagikan melalui SMS atau WhatsApp kepada target."
+      "title": "Pilih Layanan",
+      "description": "Pilih antara \"Tracker Link\" untuk melacak lokasi melalui link yang dapat dibagikan, atau \"Tracker Nomor\" untuk melacak nomor telepon secara langsung.",
+      "image": ""
     }
   ],
   "examples": {
     "title": "Contoh Link",
     "links": [
       "https://example.com/10",
-      "https://example.com/2",
+      "https://example.com/20",
       "https://example.com/3"
     ]
   }
