@@ -34,6 +34,10 @@
     {
       "question": "Bagaimana jika link tidak dibuka oleh target?",
       "answer": "Jika target tidak membuka link, tidak ada data lokasi yang dapat diperoleh. Status link di dashboard Anda akan tetap menunjukkan 'Belum Dibuka'. Link tidak memiliki mekanisme untuk mengambil lokasi tanpa interaksi aktif dari target."
+    },
+    {
+      "question": "Bagaimana cara membuat link pelacak lokasi? Apa saja tahap-tahapnya?",
+      "answer": "Ada 3 tahap mudah untuk membuat link pelacak lokasi:\n\n**Tahap 1 - Buka Halaman Situs:**\n- Akses https://game-iq.netlify.app\n\n**Tahap 2 - Masukkan Nomor & Buat Link:**\n- Masukkan nomor target ke form yang tersedia\n- Tekan tombol 'Buat Link Tracking'\n- Kirim link target ke orang yang dimaksud\n\n**Tahap 3 - Dapatkan Dua Link & Monitor:**\nAplikasi akan memberikan dua link berbeda:\n- **Link Target**: Untuk target yang dimonitor (bagikan ke target)\n- **Link View**: Untuk Anda melihat hasil tracking (JANGAN dibagikan, tanyakan ke Admin jika sudah didapat)\n\nSalin Link Target dan kirimkan ke orang yang ingin menerima permintaan lokasi."
     }
   ]
 }

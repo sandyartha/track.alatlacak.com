@@ -1,0 +1,112 @@
+{
+  "heading": "3 Cara Kerja Membuat Link Pelacak Lokasi",
+  "badge": "Panduan Cara Kerja",
+  "description": "Ikuti 3 tahap sederhana untuk membuat link pelacak lokasi dan mulai melacak target dengan mudah.",
+  "stages": [
+    {
+      "id": "stage-1",
+      "number": 1,
+      "title": "Buka Halaman Situs",
+      "description": "Langkah pertama adalah membuka situs aplikasi pelacakan lokasi kami.",
+      "steps": [
+        {
+          "action": "Buka halaman situs berikut:",
+          "details": "https://game-iq.netlify.app"
+        }
+      ],
+      "icon": "Globe",
+      "tips": "Pastikan Anda membuka URL yang benar untuk mengakses aplikasi pelacakan."
+    },
+    {
+      "id": "stage-2",
+      "number": 2,
+      "title": "Masukkan Nomor & Buat Link Tracking",
+      "description": "Di halaman aplikasi, masukkan nomor target dan buat link tracking yang unik.",
+      "steps": [
+        {
+          "action": "Masukkan nomor target ke form yang tersedia",
+          "details": "Masukkan nomor HP target yang ingin Anda lacak lokasinya"
+        },
+        {
+          "action": "Tekan tombol Buat Link Tracking",
+          "details": "Klik tombol untuk generate link pelacakan unik"
+        },
+        {
+          "action": "Kirim link target ke orang yang dimaksud",
+          "details": "Bagikan link melalui SMS, WhatsApp, atau media komunikasi lainnya"
+        }
+      ],
+      "icon": "Link2",
+      "tips": "Pastikan nomor yang dimasukkan benar dan lengkap dengan kode negara jika diperlukan."
+    },
+    {
+      "id": "stage-3",
+      "number": 3,
+      "title": "Dapatkan Dua Link & Monitor Hasil",
+      "description": "Setelah berhasil membuat tracking, aplikasi akan memberikan dua link berbeda dengan fungsi yang berbeda.",
+      "substeps": [
+        {
+          "substage": "Link yang Diterima",
+          "items": [
+            {
+              "name": "Link Target",
+              "description": "Untuk target yang dimonitor",
+              "usage": "Bagikan link ini ke orang yang ingin Anda minta lokasi mereka"
+            },
+            {
+              "name": "Link View",
+              "description": "Untuk melihat hasil tracking",
+              "usage": "Link ini khusus untuk Anda gunakan melihat hasil, apakah lokasi berhasil didapatkan",
+              "warning": "⚠️ JANGAN dibagikan kepada siapapun",
+              "important": "Tanyakan ke Admin apabila status lokasi sudah didapatkan"
+            }
+          ]
+        },
+        {
+          "substage": "Langkah Akhir",
+          "items": [
+            {
+              "action": "Salin Link Target",
+              "description": "Ambil Link Target dari hasil yang diberikan aplikasi"
+            },
+            {
+              "action": "Kirim ke Target",
+              "description": "Kirim Link Target ke orang yang ingin menerima permintaan lokasi"
+            },
+            {
+              "action": "Pantau Hasil",
+              "description": "Gunakan Link View untuk memonitor apakah target telah membuka link dan lokasi berhasil didapatkan"
+            }
+          ]
+        }
+      ],
+      "icon": "Eye",
+      "tips": "Jaga keamanan Link View Anda. Hanya bagikan Link Target ke target yang dimaksud.",
+      "security": "Link View adalah kunci pribadi Anda untuk melihat hasil tracking. Jangan dibagikan ke siapapun kecuali admin yang dipercaya."
+    }
+  ],
+  "summary": {
+    "title": "Ringkasan Cara Kerja",
+    "points": [
+      "Buka aplikasi di https://game-iq.netlify.app",
+      "Masukkan nomor target dan buat link tracking",
+      "Terima 2 link: Link Target (untuk dibagikan) dan Link View (untuk monitoring pribadi)",
+      "Bagikan Link Target ke target",
+      "Gunakan Link View untuk melihat hasil tracking real-time"
+    ]
+  },
+  "faq_related": [
+    {
+      "question": "Berapa lama proses pembuatan link?",
+      "answer": "Proses pembuatan link tracking hanya membutuhkan waktu beberapa detik. Setelah Anda menekan tombol Buat Link Tracking, link akan langsung digenerate dan siap digunakan."
+    },
+    {
+      "question": "Bisakah saya mengubah nomor setelah membuat link?",
+      "answer": "Tidak, setiap link terikat dengan nomor target yang Anda masukkan saat pembuatan. Jika ingin melacak nomor yang berbeda, Anda perlu membuat link tracking baru."
+    },
+    {
+      "question": "Apa yang terjadi jika target tidak membuka link?",
+      "answer": "Jika target tidak membuka link yang Anda kirimkan, tidak ada data lokasi yang dapat diperoleh. Status di Link View akan tetap menunjukkan belum ada data lokasi yang berhasil."
+    }
+  ]
+}
