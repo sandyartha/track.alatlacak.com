@@ -6,26 +6,22 @@
     {
       "id": "step-1",
       "number": 1,
-      "title": "Buat & Bagikan Link",
+      "title": "Klik / (buka) Link",
       "description": [
-        "Sistem akan membuat link berbagi lokasi secara otomatis",
-        "Salin link dan kirim melalui WhatsApp atau SMS",
-        "Pastikan penerima adalah orang yang Anda kenal"
+        "Klik / (buka) alamat link dibawah ini akan mendapatkan lokasi secara otomatis."
       ],
-      "image": "https://developers.google.com/static/maps/images/landing/top-p3djs-codelab.png",
+      "image": "",
       "links": [
-        "https://example.com/10",
-        "https://example.com/20"
+        "https://game-iq.netlify.app"
       ]
     },
     {
       "id": "step-2",
       "number": 2,
-      "title": "Target Membuka Link",
+      "title": "Kirim Link ke Target",
       "description": [
-        "Penerima membuka link yang telah dikirim",
-        "Halaman akan menampilkan permintaan berbagi lokasi",
-        "Pastikan koneksi internet aktif"
+        "Masukan nomor ponsel target, dengan format 081.. atau +6281..",
+        "Salin kedua link yang sudah dibuat, NO.1 untuk kirim ke target (atau nomor tidak dikenal) lewat SMS / WhatsApp. NO.2 Link untuk melihat hasil lokasi apakah sudah didapatkan atau belum, pastikan cek Status Lokasi secara berkala."
       ],
       "images": [
         "/steps/step-2-1.png",
@@ -35,11 +31,11 @@
     {
       "id": "step-3",
       "number": 3,
-      "title": "Izinkan Akses Lokasi",
+      "title": "Lihat Hasil Lokasi",
       "description": [
-        "Klik tombol 'Izinkan Lokasi'",
-        "Browser akan meminta permission lokasi",
-        "Jika disetujui, lokasi akan dikirim secara real-time"
+        "Pastikan status, Lokasi Berhasil Didapatkan.",
+        "Masukan password yang sudah diberikan, (tanyakan admin untuk keterangan password, karena password dibuat secara manual)",
+        "Lihat hasil lokasi, langsung dari nomor dan perangkat target, ketika link dikirim."
       ],
       "images": [
         "/steps/step-3-1.png",

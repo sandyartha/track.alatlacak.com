@@ -25,7 +25,7 @@ export default function TermsClient() {
               Terakhir diperbarui: Januari 2024
             </p>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              Selamat datang di Tracker Loc ID. Dengan mengakses dan menggunakan website dan layanan kami, Anda menerima dan setuju terikat dengan syarat dan kondisi berikut.
+              Selamat datang di Tracker LOC ID. Dengan mengakses dan menggunakan website dan layanan kami, Anda menerima dan setuju terikat dengan syarat dan kondisi berikut.
             </p>
           </section>
 
@@ -45,7 +45,7 @@ export default function TermsClient() {
               <h2 className="text-2xl font-bold text-foreground mb-4">2. Deskripsi Layanan</h2>
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>
-                  Tracker Loc ID menyediakan layanan pelacakan lokasi berbasis web. Layanan kami mencakup Tracker Link Premium, Tracker Nomor Premium, dan HLR Lookup. Kami berhak untuk mengubah atau menghentikan layanan ini kapan saja.
+                  Tracker LOC ID menyediakan layanan pelacakan lokasi berbasis web. Layanan kami mencakup Tracker Link Premium, Tracker Nomor Premium, dan HLR Lookup. Kami berhak untuk mengubah atau menghentikan layanan ini kapan saja.
                 </p>
               </div>
             </div>
@@ -174,7 +174,7 @@ export default function TermsClient() {
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>Jika Anda memiliki pertanyaan tentang syarat layanan ini, silakan hubungi kami:</p>
                 <div>
-                  <p className="font-semibold text-foreground">Tracker Loc ID</p>
+                  <p className="font-semibold text-foreground">Tracker LOC ID</p>
                   <p>Email: support@trackerlocid.com</p>
                   <p>Website: https://www.alatlacak.com</p>
                 </div>
@@ -201,3 +201,4 @@ export default function TermsClient() {
     </div>
   )
 }
+

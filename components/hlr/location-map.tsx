@@ -82,3 +82,4 @@ export function LocationMap({ latitude, longitude }: LocationMapProps) {
     </div>
   )
 }
+

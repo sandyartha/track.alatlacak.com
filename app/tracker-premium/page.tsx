@@ -25,10 +25,11 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/tracker-premium`,
     title: "Tracker Premium - Pelacakan Link & Nomor HP Akurat",
     description: "Layanan tracker premium untuk pelacakan lokasi nomor HP dengan presisi tinggi. Tracker Link dan Tracker Nomor dengan hasil akurat dan real-time update.",
-    siteName: "Tracker Loc ID",
+    siteName: "Tracker LOC ID",
   },
 }
 
 export default function TrackerPremiumPage() {
   return <TrackerPremiumClient />
 }
+

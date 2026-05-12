@@ -64,3 +64,4 @@ export function InfoRow({ label, value, highlight }: InfoRowProps) {
     </div>
   )
 }
+

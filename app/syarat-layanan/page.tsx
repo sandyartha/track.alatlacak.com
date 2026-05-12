@@ -7,13 +7,13 @@ import TermsClient from './client'
 const SITE_URL = "https://track.alatlacak.com"
 
 export const metadata: Metadata = {
-  title: "Syarat Layanan - Tracker Loc ID",
-  description: "Syarat dan kondisi penggunaan Tracker Loc ID. Pelajari hak dan kewajiban Anda sebagai pengguna layanan kami.",
+  title: "Syarat Layanan - Tracker LOC ID",
+  description: "Syarat dan kondisi penggunaan Tracker LOC ID. Pelajari hak dan kewajiban Anda sebagai pengguna layanan kami.",
   keywords: [
     "syarat layanan",
     "terms of service",
     "persyaratan penggunaan",
-    "terms tracker loc id"
+    "terms Tracker LOC ID"
   ],
   robots: {
     index: true,
@@ -25,12 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "article",
     url: `${SITE_URL}/syarat-layanan`,
-    title: "Syarat Layanan - Tracker Loc ID",
-    description: "Syarat dan kondisi penggunaan Tracker Loc ID.",
-    siteName: "Tracker Loc ID",
+    title: "Syarat Layanan - Tracker LOC ID",
+    description: "Syarat dan kondisi penggunaan Tracker LOC ID.",
+    siteName: "Tracker LOC ID",
   },
 }
 
 export default function SyaratLayananPage() {
   return <TermsClient />
 }
+

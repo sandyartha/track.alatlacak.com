@@ -25,7 +25,7 @@ export default function DisclaimerClient() {
               Batasan Tanggung Jawab dan Penggunaan Layanan
             </p>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              Disclaimer ini menjelaskan batasan tanggung jawab kami dan penggunaan yang tepat dari layanan Tracker Loc ID.
+              Disclaimer ini menjelaskan batasan tanggung jawab kami dan penggunaan yang tepat dari layanan Tracker LOC ID.
             </p>
           </section>
 
@@ -36,7 +36,7 @@ export default function DisclaimerClient() {
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Tidak Ada Jaminan Akurasi</h2>
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>
-                  Meskipun kami berusaha memberikan informasi lokasi yang akurat, Tracker Loc ID tidak memberikan jaminan 100% akurasi. Akurasi lokasi dapat bervariasi tergantung pada:
+                  Meskipun kami berusaha memberikan informasi lokasi yang akurat, Tracker LOC ID tidak memberikan jaminan 100% akurasi. Akurasi lokasi dapat bervariasi tergantung pada:
                 </p>
                 <ul className="list-disc list-inside ml-2 space-y-2">
                   <li>Kepadatan dan lokasi cell tower di area tertentu</li>
@@ -71,7 +71,7 @@ export default function DisclaimerClient() {
               <h2 className="text-2xl font-bold text-foreground mb-4">3. Tidak Untuk Penentuan Lokasi Presisi</h2>
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>
-                  Layanan Tracker Loc ID tidak dirancang dan tidak boleh digunakan untuk:
+                  Layanan Tracker LOC ID tidak dirancang dan tidak boleh digunakan untuk:
                 </p>
                 <ul className="list-disc list-inside ml-2 space-y-2">
                   <li>Pelacakan real-time presisi dengan margin kesalahan kurang dari 50 meter</li>
@@ -136,7 +136,7 @@ export default function DisclaimerClient() {
               <h2 className="text-2xl font-bold text-foreground mb-4">7. Penggunaan yang Tidak Disarankan</h2>
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>
-                  Kami sangat tidak merekomendasikan menggunakan Tracker Loc ID untuk:
+                  Kami sangat tidak merekomendasikan menggunakan Tracker LOC ID untuk:
                 </p>
                 <ul className="list-disc list-inside ml-2 space-y-2">
                   <li>Melacak HP yang hilang atau dicuri (gunakan Find My Device)</li>
@@ -168,7 +168,7 @@ export default function DisclaimerClient() {
               <h2 className="text-2xl font-bold text-foreground mb-4">9. Limitation of Liability</h2>
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>
-                  Dalam sejauh yang diizinkan oleh hukum, Tracker Loc ID tidak bertanggung jawab untuk:
+                  Dalam sejauh yang diizinkan oleh hukum, Tracker LOC ID tidak bertanggung jawab untuk:
                 </p>
                 <ul className="list-disc list-inside ml-2 space-y-2">
                   <li>Indirect, incidental, atau consequential damages</li>
@@ -186,7 +186,7 @@ export default function DisclaimerClient() {
               <h2 className="text-2xl font-bold text-foreground mb-4">10. Indemnification</h2>
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>
-                  Anda setuju untuk membela, mengindemnifikasi, dan mempertahankan Tracker Loc ID dari semua klaim, kerugian, atau biaya yang timbul dari penggunaan layanan Anda.
+                  Anda setuju untuk membela, mengindemnifikasi, dan mempertahankan Tracker LOC ID dari semua klaim, kerugian, atau biaya yang timbul dari penggunaan layanan Anda.
                 </p>
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function DisclaimerClient() {
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>Jika Anda memiliki pertanyaan tentang disclaimer ini, silakan hubungi kami:</p>
                 <div>
-                  <p className="font-semibold text-foreground">Tracker Loc ID</p>
+                  <p className="font-semibold text-foreground">Tracker LOC ID</p>
                   <p>Email: support@trackerlocid.com</p>
                   <p>Website: https://www.alatlacak.com</p>
                 </div>
@@ -224,7 +224,7 @@ export default function DisclaimerClient() {
             <div className="rounded-lg border-2 border-yellow-500/50 bg-yellow-500/10 p-6">
               <h3 className="text-lg font-semibold text-foreground mb-3">Pemberitahuan Penting</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Dengan menggunakan layanan Tracker Loc ID, Anda menerima semua disclaimers, limitations, dan batasan tanggung jawab yang disebutkan di atas. Jika Anda tidak setuju dengan disclaimer ini, Anda tidak boleh menggunakan layanan kami.
+                Dengan menggunakan layanan Tracker LOC ID, Anda menerima semua disclaimers, limitations, dan batasan tanggung jawab yang disebutkan di atas. Jika Anda tidak setuju dengan disclaimer ini, Anda tidak boleh menggunakan layanan kami.
               </p>
             </div>
           </section>
@@ -247,3 +247,4 @@ export default function DisclaimerClient() {
     </div>
   )
 }
+

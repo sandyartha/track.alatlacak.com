@@ -9,7 +9,7 @@ import './globals.css'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
-const SITE_NAME = "Tracker Loc ID"
+const SITE_NAME = "Tracker LOC ID"
 const SITE_URL = "https://track.alatlacak.com"
 const TITLE = "Jasa Melacak Lokasi Nomor Telepon HP - Tanpa Install Aplikasi"
 const DESCRIPTION =
@@ -139,3 +139,4 @@ export default function RootLayout({
     </html>
   )
 }
+

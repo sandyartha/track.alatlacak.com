@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Tracker Loc ID",
+    "name": "Tracker LOC ID",
     "tagline": "Solusi Pelacakan Nomor HP Terpercaya",
     "description": "Platform layanan melacak lokasi nomor telepon HP dengan teknologi OpenCellID dan akurasi tinggi untuk semua operator Indonesia."
   },
@@ -30,7 +30,7 @@
       "links": [
         {
           "label": "Tentang Kami",
-          "description": "Sejarah dan visi Tracker Loc ID",
+          "description": "Sejarah dan visi Tracker LOC ID",
           "href": "/tentang-kami"
         },
         {
@@ -81,7 +81,7 @@
     }
   ],
   "cta": {
-    "heading": "Mulai Gunakan Tracker Loc ID Sekarang",
+    "heading": "Mulai Gunakan Tracker LOC ID Sekarang",
     "subheading": "Jasa melacak nomor HP terbaik di Indonesia",
     "button": "Coba Gratis Sekarang"
   },
@@ -99,6 +99,7 @@
       "layanan tracking hp indonesia"
     ]
   },
-  "copyright": "© 2024 Tracker Loc ID. Semua hak cipta dilindungi. Bukan untuk melacak HP hilang atau dicuri — gunakan Find My Device dari Google.",
+  "copyright": "© 2024 Tracker LOC ID. Semua hak cipta dilindungi. Bukan untuk melacak HP hilang atau dicuri — gunakan Find My Device dari Google.",
   "baseUrl": "alatlacak.com"
 }
+

@@ -54,3 +54,4 @@ export function MobileNavbar({ onMenuClick }: MobileNavbarProps) {
     </div>
   )
 }
+

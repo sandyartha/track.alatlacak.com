@@ -4,13 +4,13 @@ import PrivacyClient from './client'
 const SITE_URL = "https://track.alatlacak.com"
 
 export const metadata: Metadata = {
-  title: "Kebijakan Privasi - Tracker Loc ID",
-  description: "Kebijakan privasi Tracker Loc ID menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pengguna.",
+  title: "Kebijakan Privasi - Tracker LOC ID",
+  description: "Kebijakan privasi Tracker LOC ID menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pengguna.",
   keywords: [
     "kebijakan privasi",
     "privacy policy",
     "perlindungan data",
-    "privacy tracker loc id"
+    "privacy Tracker LOC ID"
   ],
   robots: {
     index: true,
@@ -22,12 +22,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "article",
     url: `${SITE_URL}/kebijakan-privasi`,
-    title: "Kebijakan Privasi - Tracker Loc ID",
-    description: "Kebijakan privasi Tracker Loc ID menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pengguna.",
-    siteName: "Tracker Loc ID",
+    title: "Kebijakan Privasi - Tracker LOC ID",
+    description: "Kebijakan privasi Tracker LOC ID menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pengguna.",
+    siteName: "Tracker LOC ID",
   },
 }
 
 export default function KebiakanPrivasiPage() {
   return <PrivacyClient />
 }
+

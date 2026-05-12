@@ -25,10 +25,11 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/hlr-lookup`,
     title: "HLR Lookup Gratis - Identifikasi Perangkat Tanpa Biaya",
     description: "HLR Lookup gratis untuk identifikasi perangkat secara akurat. Cek nomor HP dan informasi perangkat dengan mudah tanpa biaya tersembunyi.",
-    siteName: "Tracker Loc ID",
+    siteName: "Tracker LOC ID",
   },
 }
 
 export default function HLRLookupPage() {
   return <HLRLookupClient />
 }
+

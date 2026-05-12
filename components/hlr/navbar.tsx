@@ -35,11 +35,11 @@ export function Navbar() {
           <div className="flex items-center gap-2.5">
             <img
               src="/logo.svg"
-              alt="Tracker Loc ID Logo"
+              alt="Tracker LOC ID Logo"
               className="h-7 w-7 object-contain"
             />
             <span className="font-semibold text-foreground text-sm tracking-tight">
-              Tracker Loc ID
+              Tracker LOC ID
             </span>
           </div>
 
@@ -77,3 +77,4 @@ export function Navbar() {
     </header>
   )
 }
+

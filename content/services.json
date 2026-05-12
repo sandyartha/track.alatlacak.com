@@ -1,7 +1,7 @@
 {
   "heading": "3 Layanan Pelacakan Nomor HP Indonesia",
   "badge": "Layanan Kami",
-  "intro": "Tracker Loc ID menyediakan solusi **lengkap** untuk melacak lokasi nomor HP di seluruh Indonesia. Pilih layanan yang sesuai kebutuhan Anda — dari gratis hingga akurat 100%.",
+  "intro": "Tracker LOC ID menyediakan solusi **lengkap** untuk melacak lokasi nomor HP di seluruh Indonesia. Pilih layanan yang sesuai kebutuhan Anda — dari gratis hingga akurat 100%.",
   "services": [
     {
       "id": "service-1",
@@ -146,7 +146,7 @@
     },
     {
       "question": "Apakah legal & aman digunakan?",
-      "answer": "Ya, Tracker Loc ID beroperasi sesuai regulasi Indonesia & hukum privasi internasional. Semua data dienkripsi & tidak boleh digunakan untuk stalking atau kejahatan. User setuju with Terms of Service saat mendaftar."
+      "answer": "Ya, Tracker LOC ID beroperasi sesuai regulasi Indonesia & hukum privasi internasional. Semua data dienkripsi & tidak boleh digunakan untuk stalking atau kejahatan. User setuju with Terms of Service saat mendaftar."
     }
   ],
   "cta": {
@@ -166,3 +166,4 @@
     ]
   }
 }
+

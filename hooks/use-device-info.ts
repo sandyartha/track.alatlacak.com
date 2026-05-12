@@ -286,3 +286,4 @@ export function useDeviceInfo() {
 
   return { deviceInfo, isLoading, requestLocation }
 }
+

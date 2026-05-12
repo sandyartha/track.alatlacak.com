@@ -25,7 +25,7 @@ export default function PrivacyClient() {
               Terakhir diperbarui: Januari 2024
             </p>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              Tracker Loc ID ("kami", "kami", atau "perusahaan") berkomitmen untuk melindungi privasi Anda. Kebijakan Privasi ini menjelaskan praktik data kami dan hak Anda.
+              Tracker LOC ID ("kami", "kami", atau "perusahaan") berkomitmen untuk melindungi privasi Anda. Kebijakan Privasi ini menjelaskan praktik data kami dan hak Anda.
             </p>
           </section>
 
@@ -173,7 +173,7 @@ export default function PrivacyClient() {
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami:</p>
                 <div>
-                  <p className="font-semibold text-foreground">Tracker Loc ID</p>
+                  <p className="font-semibold text-foreground">Tracker LOC ID</p>
                   <p>Email: support@trackerlocid.com</p>
                   <p>Website: https://www.alatlacak.com</p>
                   <p>Address: Jakarta, Indonesia</p>
@@ -201,3 +201,4 @@ export default function PrivacyClient() {
     </div>
   )
 }
+

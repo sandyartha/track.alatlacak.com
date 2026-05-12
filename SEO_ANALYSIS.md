@@ -134,7 +134,7 @@ Contoh:
 ```html
 <img 
   src="/logo.png" 
-  alt="Tracker Loc ID - Logo jasa pelacak lokasi nomor telepon"
+  alt="Tracker LOC ID - Logo jasa pelacak lokasi nomor telepon"
 />
 ```
 

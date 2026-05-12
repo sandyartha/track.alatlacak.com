@@ -39,7 +39,7 @@ export function WhyChooseUs() {
           Keunggulan Layanan
         </span>
         <h2 className="mt-2 text-2xl font-bold tracking-tight text-foreground">
-          Mengapa Pilih Tracker Loc ID?
+          Mengapa Pilih Tracker LOC ID?
         </h2>
         <p className="mt-4 max-w-2xl text-pretty text-sm leading-relaxed text-muted-foreground">
           Layanan kami dirancang untuk memberikan solusi terpercaya, aman, dan transparan dalam
@@ -79,3 +79,4 @@ export function WhyChooseUs() {
     </section>
   )
 }
+

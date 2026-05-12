@@ -7,13 +7,13 @@ import AboutClient from './client'
 const SITE_URL = "https://track.alatlacak.com"
 
 export const metadata: Metadata = {
-  title: "Tentang Kami - Tracker Loc ID",
-  description: "Sejarah dan visi Tracker Loc ID. Kami adalah platform pelacakan lokasi terpercaya dengan teknologi terdepan untuk keamanan dan transparansi.",
+  title: "Tentang Kami - Tracker LOC ID",
+  description: "Sejarah dan visi Tracker LOC ID. Kami adalah platform pelacakan lokasi terpercaya dengan teknologi terdepan untuk keamanan dan transparansi.",
   keywords: [
-    "tentang tracker loc id",
+    "tentang Tracker LOC ID",
     "sejarah tracker",
     "visi misi perusahaan",
-    "tim tracker loc id",
+    "tim Tracker LOC ID",
     "tentang kami"
   ],
   alternates: {
@@ -22,12 +22,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "article",
     url: `${SITE_URL}/tentang-kami`,
-    title: "Tentang Kami - Tracker Loc ID",
-    description: "Sejarah dan visi Tracker Loc ID. Platform pelacakan lokasi terpercaya dengan teknologi terdepan.",
-    siteName: "Tracker Loc ID",
+    title: "Tentang Kami - Tracker LOC ID",
+    description: "Sejarah dan visi Tracker LOC ID. Platform pelacakan lokasi terpercaya dengan teknologi terdepan.",
+    siteName: "Tracker LOC ID",
   },
 }
 
 export default function TentangKamiPage() {
   return <AboutClient />
 }
+

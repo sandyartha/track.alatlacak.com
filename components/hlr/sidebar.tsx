@@ -60,12 +60,12 @@ export function Sidebar({ open, setOpen }: SidebarProps) {
           <div className="flex items-center gap-2">
             <img
               src="/logo.svg"
-              alt="Tracker Loc ID Logo"
+              alt="Tracker LOC ID Logo"
               className="h-6 w-6 object-contain"
               style={{ animation: "spin 6s linear infinite" }}
             />
             <span className="text-sm font-bold text-foreground tracking-tight">
-              Tracker Loc ID
+              Tracker LOC ID
             </span>
           </div>
         </div>
@@ -128,3 +128,4 @@ export function Sidebar({ open, setOpen }: SidebarProps) {
     </>
   )
 }
+

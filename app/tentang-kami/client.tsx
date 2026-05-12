@@ -19,13 +19,13 @@ export default function AboutClient() {
           {/* Hero Section */}
           <section className="py-14 border-b border-border">
             <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground">
-              Tentang Tracker Loc ID
+              Tentang Tracker LOC ID
             </h1>
             <p className="mt-3 text-lg text-muted-foreground">
               Sejarah, Visi, dan Misi Kami
             </p>
             <p className="mt-4 max-w-3xl text-pretty text-sm leading-relaxed text-muted-foreground">
-              Tracker Loc ID adalah platform pelacakan lokasi yang inovatif dan terpercaya. Kami berkomitmen untuk memberikan solusi teknologi tracking yang aman, akurat, dan mudah digunakan untuk berbagai kebutuhan personal dan bisnis di Indonesia.
+              Tracker LOC ID adalah platform pelacakan lokasi yang inovatif dan terpercaya. Kami berkomitmen untuk memberikan solusi teknologi tracking yang aman, akurat, dan mudah digunakan untuk berbagai kebutuhan personal dan bisnis di Indonesia.
             </p>
           </section>
 
@@ -36,7 +36,7 @@ export default function AboutClient() {
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Tracker Loc ID didirikan pada tahun 2020 dengan visi untuk menghadirkan solusi tracking yang aman, akurat, dan mudah diakses oleh semua orang. Pada awalnya, kami memulai dengan tim kecil yang terdiri dari para ahli di bidang teknologi, telekomunikasi, dan keamanan data.
+                Tracker LOC ID didirikan pada tahun 2020 dengan visi untuk menghadirkan solusi tracking yang aman, akurat, dan mudah diakses oleh semua orang. Pada awalnya, kami memulai dengan tim kecil yang terdiri dari para ahli di bidang teknologi, telekomunikasi, dan keamanan data.
               </p>
               <p>
                 Perjalanan kami dimulai dari mengidentifikasi kebutuhan pasar Indonesia akan layanan tracking yang dapat diandalkan. Saat itu, banyak orang kesulitan melacak lokasi keluarga mereka atau mengoptimalkan fleet management dengan tools yang tersedia. Kami percaya bahwa teknologi tracking yang baik harus accessible, affordable, dan reliable.
@@ -51,7 +51,7 @@ export default function AboutClient() {
                 Tahun 2022, kami meluncurkan Tracker Nomor Premium yang memungkinkan tracking langsung nomor HP dengan akurasi hingga 50-100 meter. Fitur ini menggunakan teknologi cell tower triangulation yang dikembangkan selama bertahun-tahun.
               </p>
               <p>
-                Saat ini, Tracker Loc ID telah melayani ribuan pelanggan di seluruh Indonesia dan terus berkembang. Kami mengalami pertumbuhan signifikan dalam user base dan kepuasan pelanggan, dengan rating 4.8/5 dari lebih dari 10.000 reviews.
+                Saat ini, Tracker LOC ID telah melayani ribuan pelanggan di seluruh Indonesia dan terus berkembang. Kami mengalami pertumbuhan signifikan dalam user base dan kepuasan pelanggan, dengan rating 4.8/5 dari lebih dari 10.000 reviews.
               </p>
             </div>
           </section>
@@ -129,7 +129,7 @@ export default function AboutClient() {
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Tracker Loc ID digerakkan oleh tim yang berdedikasi dan berpengalaman di berbagai bidang. Tim kami terdiri dari para ahli dalam teknologi, telekomunikasi, data science, dan customer service.
+                Tracker LOC ID digerakkan oleh tim yang berdedikasi dan berpengalaman di berbagai bidang. Tim kami terdiri dari para ahli dalam teknologi, telekomunikasi, data science, dan customer service.
               </p>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-3">Struktur Tim</h3>
@@ -254,3 +254,4 @@ export default function AboutClient() {
     </div>
   )
 }
+
