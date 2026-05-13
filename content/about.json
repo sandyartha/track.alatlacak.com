@@ -1,12 +1,12 @@
 {
-  "heading": "Apa itu HLR Lookup?",
+  "heading": "Apa itu Tracker LOC ID?",
   "badge": "Tentang Layanan",
-  "intro": "HLR Lookup adalah layanan pelacakan lokasi berbasis browser yang tersedia **gratis** di alatlacak.com. Layanan ini bekerja dengan mengirimkan link unik ke target, dan ketika link tersebut dibuka, browser akan meminta izin akses lokasi secara otomatis.",
+  "intro": "Tracker LOC ID adalah layanan pelacakan lokasi berbasis aplikasi web yang disediakan oleh alatlacak.com. Layanan ini bekerja dengan mengirimkan link unik ke target, dan ketika link tersebut dibuka, browser akan meminta izin akses lokasi secara otomatis. Juga tersedia versi gratis dengan Lacak Nomor HLR Lookup.",
   "features": [
     {
       "icon": "Link",
-      "title": "HLR Lookup — alatlacak.com",
-      "description": "Layanan ini gratis dan mudah digunakan. Cukup buka alatlacak.com, buat link unik, lalu bagikan ke nomor atau target yang ingin Anda lacak lokasinya."
+      "title": "Tracker LOC ID by alatlacak.com",
+      "description": "Layanan ini dan mudah digunakan. Cukup buat link unik, lalu bagikan ke nomor atau target yang ingin Anda lacak lokasinya."
     },
     {
       "icon": "MapPin",

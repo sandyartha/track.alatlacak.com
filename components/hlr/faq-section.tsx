@@ -5,6 +5,28 @@ import { ChevronDown } from "lucide-react"
 import { cn } from "@/lib/utils"
 import faqData from "@/content/faq.json"
 
+function InlineMarkdown({ text }: { text: string }) {
+  const parts = text.split(/\*\*(.*?)\*\*/g)
+  return (
+    <>
+      {parts.map((part, i) =>
+        i % 2 === 1 ? (
+          <strong key={i} className="font-semibold text-foreground">
+            {part}
+          </strong>
+        ) : (
+          part.split("\n").map((line, j) => (
+            <span key={`${i}-${j}`}>
+              {line}
+              {j < part.split("\n").length - 1 ? <br /> : null}
+            </span>
+          ))
+        )
+      )}
+    </>
+  )
+}
+
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   const [open, setOpen] = useState(false)
 
@@ -29,7 +51,9 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
           open ? "max-h-96 pb-4" : "max-h-0"
         )}
       >
-        <p className="text-sm leading-relaxed text-muted-foreground">{answer}</p>
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          <InlineMarkdown text={answer} />
+        </p>
       </div>
     </div>
   )

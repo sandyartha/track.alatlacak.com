@@ -79,7 +79,7 @@ export function Sidebar({ open, setOpen }: SidebarProps) {
             className="flex w-full items-center justify-start gap-2 rounded-md bg-gradient-to-r from-primary to-primary/80 px-3 py-2 text-xs font-medium text-primary-foreground hover:from-primary/90 hover:to-primary/70 transition-all"
           >
             <Sparkles className="h-4 w-4" />
-            Mulai Pelacakan
+            Mulai Lacak Gratis
           </a>
         </div>
 

@@ -1,7 +1,7 @@
 {
   "heading": "Pertanyaan yang Sering Diajukan",
   "badge": "FAQ",
-  "description": "Panduan singkat untuk memahami cara kerja layanan pelacakan lokasi HLR Lookup.",
+  "description": "Panduan singkat untuk memahami cara kerja layanan pelacakan lokasi nomor ponsel Indonesia.",
   "items": [
     {
       "question": "Bagaimana cara kerja pelacakan lokasi HLR Lookup?",
@@ -9,7 +9,7 @@
     },
     {
       "question": "Apakah target akan tahu bahwa lokasi mereka dilacak?",
-      "answer": "Browser selalu menampilkan dialog izin lokasi kepada target sebelum data dikirim. Artinya target harus secara aktif mengizinkan akses lokasi agar pelacakan berhasil. Jika target menolak izin, data lokasi tidak akan diperoleh."
+      "answer": "Browser selalu menampilkan dialog izin lokasi kepada target sebelum data dikirim. Artinya target harus secara aktif mengizinkan akses lokasi agar pelacakan berhasil."
     },
     {
       "question": "Operator seluler apa saja yang didukung?",
@@ -29,7 +29,7 @@
     },
     {
       "question": "Apakah layanan ini benar-benar gratis?",
-      "answer": "Ya, layanan dasar sepenuhnya gratis tanpa biaya tersembunyi. Anda bisa membuat dan menggunakan link unik tanpa perlu membayar. Tersedia juga paket premium dengan fitur tambahan seperti histori lokasi lebih lama dan notifikasi real-time."
+      "answer": "Ya, layanan Lacak HLR Lookup dasar sepenuhnya gratis tanpa biaya tersembunyi. Atau Anda bisa membuat dan menggunakan link unik hanya Tersedia untuk paket premium dengan fitur tambahan seperti histori lokasi lebih lama dan notifikasi real-time."
     },
     {
       "question": "Bagaimana jika link tidak dibuka oleh target?",
@@ -37,7 +37,7 @@
     },
     {
       "question": "Bagaimana cara membuat link pelacak lokasi? Apa saja tahap-tahapnya?",
-      "answer": "Ada 3 tahap mudah untuk membuat link pelacak lokasi:\n\n**Tahap 1 - Buka Halaman Situs:**\n- Akses https://game-iq.netlify.app\n\n**Tahap 2 - Masukkan Nomor & Buat Link:**\n- Masukkan nomor target ke form yang tersedia\n- Tekan tombol 'Buat Link Tracking'\n- Kirim link target ke orang yang dimaksud\n\n**Tahap 3 - Dapatkan Dua Link & Monitor:**\nAplikasi akan memberikan dua link berbeda:\n- **Link Target**: Untuk target yang dimonitor (bagikan ke target)\n- **Link View**: Untuk Anda melihat hasil tracking (JANGAN dibagikan, tanyakan ke Admin jika sudah didapat)\n\nSalin Link Target dan kirimkan ke orang yang ingin menerima permintaan lokasi."
+      "answer": "Ada 3 tahap mudah untuk membuat link pelacak lokasi: **Tahap 1 - Buka Halaman Situs:** - Akses https://game-iq.netlify.app **Tahap 2 - Masukkan Nomor & Buat Link:** - Masukkan nomor target ke form yang tersedia - Tekan tombol 'Buat Link Tracking' - Kirim link target ke orang yang dimaksud **Tahap 3 - Dapatkan Dua Link & Monitor: **Aplikasi akan memberikan dua link berbeda: - **Link Target**: Untuk target yang dimonitor (bagikan ke target) - **Link View**: Untuk Anda melihat hasil tracking (JANGAN dibagikan, tanyakan ke Admin jika lupa!) Salin Link Target dan kirimkan ke orang yang ingin menerima permintaan lokasi."
     }
   ]
 }

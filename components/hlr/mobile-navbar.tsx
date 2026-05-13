@@ -31,7 +31,7 @@ export function MobileNavbar({ onMenuClick }: MobileNavbarProps) {
         </Button>
 
         {/* Title */}
-        <h1 className="text-sm font-semibold text-foreground">Track Loc ID</h1>
+        <h1 className="text-sm font-semibold text-foreground">Tracker LOC ID</h1>
 
         {/* Dark Mode Toggle */}
         <Button

@@ -21,7 +21,7 @@
       "title": "Kirim Link ke Target",
       "description": [
         "Masukan nomor ponsel target, dengan format 081.. atau +6281..",
-        "Salin kedua link yang sudah dibuat, NO.1 untuk kirim ke target (atau nomor tidak dikenal) lewat SMS / WhatsApp. NO.2 Link untuk melihat hasil lokasi apakah sudah didapatkan atau belum, pastikan cek Status Lokasi secara berkala."
+        "Salin kedua link yang sudah dibuat, NO.1 Link untuk kirim ke target (atau nomor tidak dikenal) lewat SMS / WhatsApp. NO.2 Link untuk melihat hasil lokasi apakah sudah didapatkan atau belum."
       ],
       "images": [
         "/steps/step-2-1.png",
@@ -33,9 +33,8 @@
       "number": 3,
       "title": "Lihat Hasil Lokasi",
       "description": [
-        "Pastikan status, Lokasi Berhasil Didapatkan.",
         "Masukan password yang sudah diberikan, (tanyakan admin untuk keterangan password, karena password dibuat secara manual)",
-        "Lihat hasil lokasi, langsung dari nomor dan perangkat target, ketika link dikirim."
+        "Lihat hasil lokasi, langsung dari nomor dan perangkat target, ketika link dikirim. (Pastikan status, Lokasi Berhasil Didapatkan (pastikan cek Status Lokasi secara berkala)."
       ],
       "images": [
         "/steps/step-3-1.png",

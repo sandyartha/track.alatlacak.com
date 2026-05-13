@@ -11,7 +11,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 const SITE_NAME = "Tracker LOC ID"
 const SITE_URL = "https://track.alatlacak.com"
-const TITLE = "Jasa Melacak Lokasi Nomor Telepon HP - Tanpa Install Aplikasi"
+const TITLE = "Jasa Melacak Lokasi Nomor Telepon HP Akurat - Tracker LOC ID"
 const DESCRIPTION =
   "Jasa Melacak Nomor HP secara akurat semua provider dan tanpa ribet dan mudah digunakan dan pasti akurat. Tidak untuk melacak hp yang hilang."
 
